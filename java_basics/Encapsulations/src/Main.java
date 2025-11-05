@@ -5,7 +5,7 @@ public class Main {
         CourierService courierService = new CourierService(
                 dimensions,
                 90,
-                "Moscow",
+                "Moscow" ,
                 true,
                 "86749ANW",
                 false);

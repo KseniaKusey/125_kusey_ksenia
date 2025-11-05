@@ -23,7 +23,7 @@ public class Elevator {
     }
 
     public void moveUp() {
-        if (currentFloor < maxFloor) {
+        if (currentFloor < maxFloor){
             currentFloor++;
             System.out.println("Лифт переместился на этаж: " + currentFloor);
         } else {

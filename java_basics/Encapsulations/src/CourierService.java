@@ -39,7 +39,7 @@ public class CourierService {
         return isFragile;
     }
 
-    public CourierService setwithDeliveryAddress(String newDeliveryAddress) {
+    public CourierService setwithDeliveryAddress(String newDeliveryAddress){
         return new CourierService(dimensions, weight, newDeliveryAddress, canFlip, registrationNumber, isFragile);
     }
 
